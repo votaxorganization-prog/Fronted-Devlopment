@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canteen Management System</title>
+
+    <style>
+        body {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            background: #edafaf;
+        }
+
+        .heading {
+            font-size: 40px;
+           margin-left: 50px;
+            font-style: bold;
+            color: #5d1919;
+            
+        }
+
+        ul {
+            display: list-item;
+        }
+
+        #list {
+            display: flex;
+            gap: 10px;
+        }
+
+        .column {
+            flex: 1;
+            padding: 10px;
+        font-size: medium;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Food Ctaegories 
+       order instructions 
+        food price table 
+    -->
+    <div>
+
+
+        <div style="text-align: center; justify-content: center;">
+
+            <span class="heading">Canteen Management</span>
+        </div>
+        <hr>
+
+        <div id="list">
+            <!--Food Ctaegories-->
+            <span class="heading">Food Ctaegories :-</span>
+            <ul style="list-style: none;">
+                <div class="column">
+                    <li>Fast Food</li>
+                    <li>Drinks</li>
+                    <li>Desserts</li>
+                    <li>Add nested items</li>
+                    <li>Fast Food</li>
+                    <li>Burger</li>
+                    <li>Pizza</li>
+                    <li>Sandwich</li>
+                    <li>Drinks</li>
+                    <li>Coke</li>
+                    <li>Juice</li>
+                    <li>Coffe</li>
+                    <li>Desserts</li>
+                    <li>Ice Cream</li>
+                    <li>Cake</li>
+                </div>
+            </ul>
+
+
+            <!--How place order-->
+            <span class="heading">How
+                Place an Order ?</span>
+            <ol style="list-style: none;">
+                <div class="column"></div>
+                <li>Select Food Items</li>
+                <li>Add items to cart</li>
+                <li>Enter delivery details</li>
+                <li>Add items to cart</li>
+                <li>Enter delivery details</li>
+                <li>Make payment</li>
+                <li>Confirm order</li>
+                <li>Requirements</li>
+                <ol style="list-style: none;">
+                    <li>Above 18+</li>
+                    <li>Must have id card</li>
+                </ol>
+        </div>
+        </ol>
+        <hr>
+    </div>
+
+
+    <center>
+        <table border="1">
+            <tr>
+                <th>Food Item</th>
+                <th>Category</th>
+                <th>Price</th>
+                <th>Availiablity</th>
+
+            </tr>
+
+            <tr>
+                <td>Chowmin</td>
+                <td rowspan="2">Fast Food</td>
+                <td>60</td>
+                <td>Yes</td>
+
+            </tr>
+
+            <tr>
+                <td>Momos</td>
+                <td>40</td>
+                <td>Yes</td>
+            </tr>
+
+            <tr>
+                <td>Coffe</td>
+                <td rowspan="2">Drinks</td>
+                <td>20</td>
+                <td>Yes</td>
+            </tr>
+
+            <tr>
+
+                <td>Tea</td>
+                <td>10</td>
+                <td>Yes</td>
+            </tr>
+
+            <tr>
+                <td colspan="4" style="text-align: center;"> Special Offers</td>
+            <tr>
+                <td>Combo Meal</td>
+                <td>
+                    Fast Food + Drinks
+                </td>
+
+                <td>
+                    100
+                </td>
+
+                <td>
+                    Yes
+                </td>
+            </tr>
+            </tr>
+        </table>
+    </center>
+    </div>
+</body>
+
+</html>
