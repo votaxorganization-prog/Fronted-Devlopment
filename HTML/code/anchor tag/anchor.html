@@ -32,15 +32,26 @@
     <a href="https://www.youtube.com/" title="Go to Youtube">Youtube</a>
 
     <!--file download-->
-    <a
-      href="/css/Css Expert Phase By Phase Master Guide.pdf"
-      >Download file</a
-    >
+    <a href="/css/Css Expert Phase By Phase Master Guide.pdf">Download file</a>
 
     <!--Linked file type -->
     <a
       href="/css/Css Expert Phase By Phase Master Guide.pdf"
       type="application/pdf"
-      >Download file</a    >
+      >Download file</a
+    >
+
+    <!--
+        noopener: (Security) Jab bhi link naye tab mai kholna ho (target="_blank"), toh ise hamesha lagana chahiye. Ye naye khule hue tab ko hamari original website ka control (window object via JavaScript) lene se rokt hai.
+
+noreferrer: (Privacy) Agar aap chahte hain ki dusri website ko ye pata na chale ki user aapki website se aaya hai, toh iska use hota hai. Ye referer info hide kar deta hai.
+
+nofollow: (SEO) Ye Google ke web crawlers ko batata hai ki "is external link par focus mat karo, aur meri website ki ranking (link juice) is external site ko transfer mat karo". Paid links ya untrusted sites ke liye ye best hota hai.
+       -->
+    <a
+      href="https://github.com/votaxorganization-prog"
+      rel="noopener noreferrer"
+      >Go to Github with relationship</a
+    >
   </body>
 </html>
